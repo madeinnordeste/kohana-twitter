@@ -11,11 +11,14 @@
     copy config file to config directory
     
     modules/koahana-twitter/config/twitter.php  >> application/config/twitter.php
-    
+
+
 ## Use
-   
-   $twitter = new Twitter();
     
-   $status = $twitter->send($message);
+    $twitter = new Twitter();
     
-   echo $status ? 'OK' : 'ERROR';
+    $status = $twitter->send('my message');
+    
+    echo $status ? 'OK': 'ERROR';
+    
+    
