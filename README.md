@@ -2,9 +2,9 @@
 
 ## Create Twitter app
 
-    * See https://dev.twitter.com to create you app 
+     See https://dev.twitter.com to create you app 
     
-    * See https://twitter.com/settings/applications to revoke access key and renegociate
+     See https://twitter.com/settings/applications to revoke access key and renegociate
 
 ## Configure
 
@@ -15,7 +15,7 @@
 ## Use
    
    $twitter = new Twitter();
- 
+    
    $status = $twitter->send($message);
- 
+    
    echo $status ? 'OK' : 'ERROR';
