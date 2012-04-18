@@ -4,7 +4,7 @@
 
      See https://dev.twitter.com to create you app 
     
-     See https://twitter.com/settings/applications to revoke access key and renegociate
+     See https://twitter.com/settings/applications (to revoke access key and renegociate)
 
 ## Configure
 
@@ -20,5 +20,8 @@
     $status = $twitter->send('my message');
     
     echo $status ? 'OK': 'ERROR';
+
+
+
     
     
