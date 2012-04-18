@@ -21,7 +21,3 @@
     
     echo $status ? 'OK': 'ERROR';
 
-
-
-    
-    
