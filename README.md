@@ -21,3 +21,7 @@
     
     echo $status ? 'OK': 'ERROR';
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/madeinnordeste/kohana-twitter/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
